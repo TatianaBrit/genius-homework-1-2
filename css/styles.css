@@ -1,0 +1,66 @@
+:root {
+  --color-brand: #fff;
+  --color-brand-blue: #2b7fff;
+  --color-brand-dark-blue: #011c44;
+  --secondary-color-grey: #747272;
+  --secondary-color-dark-grey: #4a4a4a;
+  --secondary-color-blue-dark: #011f4a;
+}
+/* Base */
+body {
+  color: var(--color-brand-dark-blue);
+}
+ul {
+  list-style-type: none;
+}
+/* Button */
+.button {
+  color: var(--color-brand);
+  background-color: var(--color-brand-blue);
+  border-radius: 32px;
+  border: none;
+}
+.button:hover {
+  color: var(--color-brand-dark-blue);
+  border: 1px solid var(--color-brand-blue);
+  background-color: var(--color-brand);
+  border-radius: 32px;
+}
+/* Link */
+.link {
+  color: var(--color-brand-dark-blue);
+}
+.link:hover {
+  color: var(--color-brand-blue);
+}
+.footer {
+  background-color: var(--color-brand-dark-blue);
+}
+.footer-link {
+  color: var(--color-brand);
+}
+.footer-link:hover {
+  color: var(--color-brand-blue);
+}
+/* Title */
+.secondary-title {
+  color: var(--color-brand-blue);
+}
+.secondary-title .accent {
+  color: var(--color-brand-dark-blue);
+}
+h1 {
+  color: var(--color-brand-blue);
+}
+.third-title {
+  color: var(--color-brand);
+}
+.third-title .accent {
+  color: var(--color-brand-blue);
+}
+.data {
+  color: var(--secondary-color-grey);
+}
+.consultation-text {
+  color: var(--secondary-color-dark-grey);
+}
